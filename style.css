@@ -87,7 +87,7 @@
 
 /*====RESPONSIVE====*/
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:750px) {
     .wrapper {
         width: 100%;
     }
@@ -99,7 +99,7 @@
     .header ul {
         margin-top: 0px;
         padding-top: 15px;
-        padding-right: 50px;
+        padding-right: 20px;
     }
     
     .header li {
@@ -136,8 +136,24 @@
         width: 100%;
     }
     
-}
+@media only screen and (max-width:750px) {
+    .wrapper {
+        width: 100%;
+    }
 
+    .iframe iframe {
+        width: 100%;
+    }
+    
+        .header li {
+        font-size: 18px;
+        margin: 0px;
+        padding: 0px;
+        line-height: 25px;
+    }
+    
+}
+}
 
 
 
